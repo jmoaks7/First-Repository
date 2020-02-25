@@ -9,4 +9,4 @@ const intervalId = setInterval(function () {
     for (let letter of letters) {
         letter.getElementsByClassName.color = randomRGB();
     }
-}, 1000);
+}, 500);
